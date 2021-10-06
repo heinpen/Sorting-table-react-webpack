@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../styles/index.css';
 
-import connectBD from './components/connectBD';
+import connectBD from './components/connectDB';
 import App from './components/App.jsx';
 
 connectBD(renderTable);

@@ -1,7 +1,7 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/database';
 
-function connectBD(cb) {
+function connectDB(cb) {
   const firebaseConfig = {
     apiKey: 'AIzaSyBVeT3JuMqOgvP8joNaKclC5ykbt1ybL0E',
     authDomain: 'sorting-table-fd4a3.firebaseapp.com',
@@ -28,4 +28,4 @@ function connectBD(cb) {
     });
 }
 
-export default connectBD;
+export default connectDB;
