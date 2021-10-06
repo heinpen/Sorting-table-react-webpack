@@ -89,6 +89,7 @@ const config = {
 module.exports = () => {
   if (isProduction) {
     config.mode = 'production';
+    config.devtool = false;
   } else {
     config.mode = 'development';
   }
